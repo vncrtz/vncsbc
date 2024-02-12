@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Roboto";
+  src: url('https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgWxP.ttf') format('woff2');
+  font-display: fallback;
+  font-weight: 100;
+  }
+img {
+  height: 10vh;
+}
+#top {
+  background-color: #D82B80;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+   padding: 10px 0;
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+#teste {
+  font-size: 10em;
+}
+#menu {
+  float: left;
+  padding-left: 30px;
+  cursor: pointer;
+}
+#logo {
+  padding-right: 15px;
+}
+#serasaimg {
+  padding-left: 15px;
+}
+#admtext {
+  float: right;
+  padding-right: 30px;
+}
+#barra {
+  font-size: 2em;
+  line-height: auto;
+}
+span, h1, h2 {
+  font-family: "Roboto";
+}
+
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  color: #373E55;
+}
+h2 {
+  font-size: 1.75em;
+  text-align: center;
+  color: #373E55;
+}
+label {
+  font-size: 2em;
+  text-align: center;
+  color: #373E55;
+}
+#inome {
+  border-radius: 4%;
+  border-color: #0B64E0;
+  border-width: 1px;
+  width: 50vw;
+  height: 2em;
+}
+button {
+  background-color: #D82B80;
+  padding: 5px;
+  border-radius: 5%;
+  border-width: 0;
+  margin-top: 40px;
+  width: 45vw;
+  cursor: pointer;
+}
+p {
+  font-weight: bolder;
+  color: white;
+}
+.none {
+  display: none;
+}
+#bolinha {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background-color: #CCCCCC80;
+  padding: 10px;
+  border-radius: 10%;
+}
+#user {
+  background-color: #CCC;
+  width: 70vw;
+  height: 50vh;
+  margin: auto;
+  border-radius: 5%;
+}
+#carinha {
+  margin: 10px;
+  width: 21vh;
+  height: 21vh;
+  display: inline;
+  position: absolute;
+}
+.info {
+  padding-top: 20px;
+  color: black;
+  font-family: "Arial";
+  font-weight: 1;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
