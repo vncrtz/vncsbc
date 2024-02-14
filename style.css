@@ -112,6 +112,7 @@ p {
   font-family: "Arial";
   font-weight: 1;
   font-size: 1.2em;
+  margin-left: -30px
 }
 .red {
   color: red;
