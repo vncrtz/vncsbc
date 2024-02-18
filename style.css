@@ -120,3 +120,14 @@ p {
 .green {
   color: green;
 }
+
+#icpf {
+  border-radius: 4%;
+  border-color: #0B64E0;
+  border-width: 1px;
+  width: 50vw;
+  height: 2em;
+}
+#cpf {
+  margin-left: 40px;
+}
