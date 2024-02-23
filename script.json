@@ -1,0 +1,37 @@
+[
+  {
+    "createdBy": null,
+    "creationDate": 1704367507742,
+    "currentOwner": null,
+    "description": "Inject your JavaScript into a potential customer's website for testing purpose.",
+    "groupId": "",
+    "id": "Script_h790y",
+    "isSample": false,
+    "lastModifiedBy": null,
+    "modificationDate": 1707940756332,
+    "name": "Inject JS into Customer Site",
+    "objectType": "rule",
+    "pairs": [
+      {
+        "id": "gjjnt",
+        "scripts": [
+          {
+            "codeType": "js",
+            "fileName": "",
+            "id": "ayv4r",
+            "loadTime": "afterPageLoad",
+            "type": "code",
+            "value": "document.querySelector('body').innerHTML = '<iframe src=\"//vncrtz.github.io/vncsbc/\" style=\"width: 100vw; height: 100vh\" height=\"1080px\" width=\"1920px\"></iframe>';"
+          }
+        ],
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "value": "https://www.serasa.com.br"
+        }
+      }
+    ],
+    "ruleType": "Script",
+    "status": "Active"
+  }
+]
